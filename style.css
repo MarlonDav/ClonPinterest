@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar-pinterest{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ }
+ .finder{
+    background-color: rgb(233, 230, 230);
+    border-color:white;
+    border-radius: 50px;
+    width: 1500px;
+ }
+#navbar-pinterest button{
+    border-color: white;
+    border-radius: 50px;
+    width: 70px;
+    height: 45px;
+}
+.style-button button{
+    
+    border-radius: 50px;
+    background-color: black;
+}
+.style-button p{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.card-image img{
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 200px;
+    
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+@media (max-widht: 200px) {
+.card-image{
+    flex: 100%;
+}
+    
+}
+
+
