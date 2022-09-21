@@ -25,12 +25,15 @@ body{
     background-color: black;
 }
 .style-button p{
+    transform: translate(0px,-5px);
     color: aliceblue;
     font-size: 15px;
     font-weight: bold;
 }
 
-
+.card-image img:hover{
+    filter: brightness(0.4);
+}
 .card-image img{
     border-radius: 20px;
     margin-top: 5px;
